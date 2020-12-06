@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+#title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#btns {
+  text-align: center;
+  margin: auto;
+  border: 4px solid black;
+  width: 25%;
+  background-color: blue;
+}
+
+#score {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.round-result {
+  color: royalblue;
+  width: 100%;
+}
+
+.btn {
+  margin: 10px;
+  font-size: 25px;
+  background-color: blueviolet;
+  color: aliceblue;
+  
+}
+
+.btn2 {
+  margin: 10px;
+  font-size: 25px;
+  background-color: rgb(16, 169, 31);
+  color: aliceblue;
+}
+
+.btn3 {
+  margin: 10px;
+  font-size: 25px;
+  background-color: crimson;
+  color: aliceblue;
+}
+
+#choose {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
