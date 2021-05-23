@@ -1,5 +1,15 @@
 'use strict';
 
+// Triangle with canvas
+// let tri = document.querySelector('#btn2').getContext('2d');
+
+// tri.fillStyle = 'red'
+// tri.beginPath();
+// tri.moveTo(150, 50);
+// tri.lineTo(50, 250);
+// tri.lineTo(250, 250);
+// tri.fill();
+
 // Computer selection
 let computerPlay = function () {
   const names = ['Rock', 'Paper', 'Scissors'];

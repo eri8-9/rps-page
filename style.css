@@ -1,61 +1,95 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+  /* border: 1px dashed gray; */
+}
+
+/* .sidebar::-webkit-scrollbar {
+  display: none;
+} */
+
+html {
+  font-size: 62.5%;
+  /* background-color: brown; */
+  /* margin: 8px; */
 }
 
 body {
-  background-color: aquamarine;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  /* margin: 8px; */
 }
 
-#title {
+h1{
   text-align: center;
-  margin-top: 100px;
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
+  background: rgb(236, 236, 236);
+  margin: 0 1rem;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  /* margin: 10rem; */
+  padding: 10rem;
+  /* background-color: rgb(0, 59, 59); */
+  color: rgb(0, 0, 0);
+  /* border-radius: 50%; */
+  margin: 1rem;
+  background: rgb(240, 240, 240);
 }
 
 #btns {
-  text-align: center;
-  margin: auto;
-  border: 4px solid black;
-  width: 25%;
-  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 1rem ;
+  background-color: rgb(236, 236, 236);
+  padding: 10rem 1rem;
+}
+
+button {
+  /* max-width: 8rem; */
+  font-size: 2.5rem;
+  width: 10rem;
+  height: 10rem;
+  /* border-radius: 50%; */
+  /* padding: 1rem; */
+  border: none;
+}
+
+.btn {
+  background-color: rgb(0, 163, 14);
+  color: rgb(255, 255, 255);
+  /* border: 1px solid black; */
+}
+
+.btn2 {
+  background-color: rgb(236, 236, 236);
+  border-radius: 0%;
+  border-width: 2em;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+  color: rgb(0, 0, 0);
+}
+
+.btn3 {
+  border-radius: 50%;
+  background: rgba(0, 0, 255, 0.795);
+  color: aliceblue;
 }
 
 #score {
   text-align: center;
-  margin: auto;
-  padding-top: 10px;
-}
-
-.round-result {
-  color: royalblue;
-  width: 100%;
-}
-
-.btn {
-  margin: 10px;
-  font-size: 25px;
-  background-color: blueviolet;
-  color: aliceblue;
-  
-}
-
-.btn2 {
-  margin: 10px;
-  font-size: 25px;
-  background-color: rgb(16, 169, 31);
-  color: aliceblue;
-}
-
-.btn3 {
-  margin: 10px;
-  font-size: 25px;
-  background-color: crimson;
-  color: aliceblue;
-}
-
-#choose {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+  background: lemonchiffon;
+  padding: 1rem;
 }
